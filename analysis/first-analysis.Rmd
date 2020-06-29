@@ -1,0 +1,19 @@
+---
+title: "first-analysis"
+author: "JJCoen"
+date: "`r format(Sys.Date(), '%A, %B %d, %Y') `"
+output: 
+  workflowr::wflow_html:
+    toc: true
+    code_folding: show
+editor_options:
+  chunk_output_type: console
+---
+
+## Introduction
+
+```{r init, include=FALSE}
+source('code/01-initialisation.R')
+
+```
+
