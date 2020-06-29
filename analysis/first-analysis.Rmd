@@ -1,11 +1,13 @@
 ---
 title: "first-analysis"
+type: inverse
 author: "JJCoen"
 date: "`r format(Sys.Date(), '%A, %B %d, %Y') `"
 output: 
   workflowr::wflow_html:
     toc: true
     code_folding: show
+    css: styles.css
 editor_options:
   chunk_output_type: console
 ---
