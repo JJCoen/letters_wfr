@@ -1,0 +1,22 @@
+name: Letters_wfr
+output_dir: ../docs
+navbar:
+  title: Letters_wfr
+  type: inverse
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: License
+    href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/Coen/Letters_wfr
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
